@@ -4,3 +4,4 @@ Course materials and R code for Bayesian Stats course (Statistical rethinking)
 "A line I wrote on my local computer" 
 "A line I wrote on my local computer" 
 " A line I wrote on my local computer" 
+"This is a line from R Studio"
