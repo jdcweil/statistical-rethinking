@@ -20,18 +20,18 @@ rm(list=ls())
 
 # Next, install cmdstanr using the specific code below to make it work properly
 
-#install.packages("cmdstanr", repos = c('https://stan-dev.r-universe.dev', getOption("repos")))
-#install.packages(c("coda","mvtnorm","devtools","loo","dagitty","shape"))
+# install.packages("cmdstanr", repos = c('https://stan-dev.r-universe.dev', getOption("repos")))
+# install.packages(c("coda","mvtnorm","devtools","loo","dagitty","shape"))
 
 # On first install of cmdstan package, also run the code below to compile Stan libraries
-#cmdstanr::check_cmdstan_toolchain(fix = TRUE)
-#cmdstanr::install_cmdstan()
+# cmdstanr::check_cmdstan_toolchain(fix = TRUE)
+# cmdstanr::install_cmdstan()
 
 # Finally, install the 'rethinking' package from GitHub
-#devtools::install_github("rmcelreath/rethinking")
+# devtools::install_github("rmcelreath/rethinking")
 
 
-# Once all packages are installed, call them here:
+### If all packages are installed, call them here:
 library("cmdstanr", "rethinking", "tidyverse", "reshape2")
 
 
